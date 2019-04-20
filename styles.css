@@ -1,18 +1,4 @@
-@media (max-width: 576px) {
-                #title
-                {
-                    font-size: 50px;
-                    padding: 40px;
-                }
-                #intro
-                {
-                    font-size: 12px;
-                    padding: 20px;
-                }
-                #top{
-                    height: 150px;
-                }
-            }
+
 #top{
     border-radius: 50px;
     background-image: url("coffee.jpg");
