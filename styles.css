@@ -1,102 +1,86 @@
+#links, #links a, .intro {
+  color: black;
+  text-align: justify;
+  padding: 60px;
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; }
+
+#links {
+  padding: 0px;
+  margin: 40px; }
+
+#links a {
+  color: #6e512b; }
+
+.intro {
+  padding-top: 80px; }
+
 @media (min-width: 1px) and (max-width: 576px) {
-                #top p
-                {
-                    font-size: 50px;
-                    padding: 40px;
-                }
-                #intro
-                {
-                    font-size: 12px;
-                    padding: 15px;
-                }
-                #top
-                {
-                    height: 150px;
-                }
-                img
-                {
-                    margin: 20px;
-                }
+  #top p {
+    font-size: 50px;
+    padding: 40px; }
 
-            }
-#top{
-    border-radius: 50px;
-    background-image: url("coffee.jpg");
-    margin: 20px;
-    background-size: cover;
-    background-position: center;
-    height: 300px;
-    margin-bottom: 0px;
-}
+  #intro {
+    font-size: 12px;
+    padding: 15px; }
 
-#top p{
-    color: #ffe000;
-    text-align:center;
-    padding: 70px;
-    font-size: 100px;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
-}
+  #top {
+    height: 150px; }
 
-#middle{
-    border-radius: 50px;
-    background-color: #D2B48C;
-    margin: 20px;
-    height: auto;
-    margin-top: 0px;
-    margin-bottom: 10px;
-}
+  img {
+    margin: 20px; } }
+#top {
+  border-radius: 50px;
+  background-image: url("coffee.jpg");
+  margin: 20px;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  margin-bottom: 0px; }
 
-#intro{
-    color: black;
-    text-align: justify;
-    padding: 60px;
-    font-size: 25px;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
-    padding-top: 80px;
-}
+#top p {
+  color: #ffe000;
+  text-align: center;
+  padding: 70px;
+  font-size: 100px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; }
+
+#middle {
+  border-radius: 50px;
+  background-color: #D2B48C;
+  margin: 20px;
+  height: auto;
+  margin-top: 0px;
+  margin-bottom: 10px; }
 
 img {
-    border-radius: 20px;
-    border-style:solid;
-    border-width:10px;
-    border-color: #b79d7b;
-    max-width:100%;
-    margin: 60px;
-}
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #b79d7b;
+  max-width: 100%;
+  margin: 60px; }
 
-.btn{
-    border-radius: 12px;
-    background-color: #D2B48C;
-    border-color: inherit;
-    margin-bottom: 25px;
-    margin-left: 40px;
-    margin-right: 40px;
-}
-.btn-primary:hover{
-    background-color: #b79d7b;
-    border-color: inherit;
-}
+.btn {
+  border-radius: 12px;
+  background-color: #D2B48C;
+  border-color: inherit;
+  margin-bottom: 25px;
+  margin-left: 40px;
+  margin-right: 40px; }
 
-.table-striped{
-    border-style: solid;
-    border-width: 10px;
-    border-color: #b79d7b;
-    width: 60%;
-    margin: auto;
-}
+.btn-primary:hover {
+  background-color: #b79d7b;
+  border-color: inherit; }
+
+.table-striped {
+  border-style: solid;
+  border-width: 10px;
+  border-color: #b79d7b;
+  width: 60%;
+  margin: auto; }
 
 td:hover {
-    background-color: #b79d7b;
-}
+  background-color: #b79d7b; }
 
-#links{
-    color: black;
-    text-align: justify;
-    font-size: 25px;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
-    margin: 40px;
-}
-
-#links a{
-    color: #6e512b;
-}
+/*# sourceMappingURL=styles.css.map */
