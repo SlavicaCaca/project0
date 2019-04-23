@@ -10,25 +10,12 @@
   margin: 40px; }
 
 #links a {
-  color: #6e512b; }
+  color: #6e512b;
+  padding: 0px; }
 
 .intro {
   padding-top: 80px; }
 
-@media (min-width: 1px) and (max-width: 576px) {
-  #top p {
-    font-size: 50px;
-    padding: 40px; }
-
-  #intro {
-    font-size: 12px;
-    padding: 15px; }
-
-  #top {
-    height: 150px; }
-
-  img {
-    margin: 20px; } }
 #top {
   border-radius: 50px;
   background-image: url("coffee.jpg");
@@ -82,5 +69,32 @@ img {
 
 td:hover {
   background-color: #b79d7b; }
+
+@media (max-width: 576px) {
+  #top p {
+    font-size: 50px;
+    padding: 40px; }
+
+  .intro {
+    font-size: 12px;
+    padding: 15px; }
+
+  #top {
+    height: 150px; }
+
+  img {
+    margin: 10px;
+    border-width: 5px; }
+
+  .table td, .table th {
+    padding: 0px; }
+
+  .table {
+    font-size: 12px; }
+
+  #links {
+    font-size: 12px; }
+    #links a {
+      font-size: 12px; } }
 
 /*# sourceMappingURL=styles.css.map */
